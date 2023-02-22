@@ -1,0 +1,24 @@
+body{
+    background-size: cover;
+    background-color: #f2f2f2;
+}
+
+.tabledark {
+    background-color: #180d6b;
+}
+
+#buttonPrimary {
+    background-color: #180d6b; 
+}
+
+.textmsg {
+    color: red;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 3px;
+}

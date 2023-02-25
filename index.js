@@ -1,8 +1,10 @@
 
 let departmentSelect = document.getElementById('departments');
-let departmentdropdown = new Option('Select Department', null, true, true)
+
+// a constructor that creates a new htmloption element  
+let departmentdropdown = new Option('Select Department', null, true, true);
 departmentdropdown.disabled = true;
-departmentSelect.add(departmentdropdown)
+departmentSelect.add(departmentdropdown);
 
 
 fetch('https://localhost:7275/api/StudentManagement/Departments')
